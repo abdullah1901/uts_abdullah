@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cerpen Kita</string>
+    <string name="api">AIzaSyDyCAt5tGpnunmC-mTYcE_V8zS8vvxfXSE</string>
+    <string name="tambah_berita">Tambah Berita</string>
+    <string name="tentang_kami">TENTANG KAMI</string>
+    <string name="profile">PROFILE</string>
+</resources>
