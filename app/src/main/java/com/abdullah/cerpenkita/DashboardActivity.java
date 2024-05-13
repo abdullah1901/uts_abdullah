@@ -49,16 +49,11 @@ public class DashboardActivity extends AppCompatActivity implements OnMapReadyCa
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, cerpenList);
         cerpenListView.setAdapter(adapter);
 
-        cerpenList.add(new CerpenItem("Cerpen 1", "Isi cerpen 1"));
-        cerpenList.add(new CerpenItem("Cerpen 2", "Isi cerpen 2"));
-        cerpenList.add(new CerpenItem("Cerpen 3", "Isi cerpen 3"));
-        cerpenList.add(new CerpenItem("Cerpen 4", "Isi cerpen 4"));
-        cerpenList.add(new CerpenItem("Cerpen 5", "Isi cerpen 5"));
-        cerpenList.add(new CerpenItem("Cerpen 6", "Isi cerpen 6"));
-        cerpenList.add(new CerpenItem("Cerpen 7", "Isi cerpen 7"));
-        cerpenList.add(new CerpenItem("Cerpen 8", "Isi cerpen 8"));
-        cerpenList.add(new CerpenItem("Cerpen 9", "Isi cerpen 9"));
-        cerpenList.add(new CerpenItem("Cerpen 10", "Isi cerpen 10"));
+        cerpenList.add(new CerpenItem("An Occurrence at Owl Creek Bridge oleh Ambrose Bierce", "Seorang pria bernama Peyton Farquhar telah dijebak oleh tentara Union selama Perang Saudara Amerika. Cerita dimulai dengan detil-detil eksekusi gantungnya di Owl Creek Bridge, tetapi mengungkapkan bahwa sebenarnya dia hanya membayangkan pelariannya yang dramatis dari eksekusi tersebut."));
+        cerpenList.add(new CerpenItem("The Lottery oleh Shirley Jackson", "Cerita dimulai dengan gambaran desa kecil yang bersiap-siap untuk sebuah undian tahunan yang tampak biasa. Namun, ketika pemenang undian diumumkan, terungkap bahwa \"hadiah\" tersebut sebenarnya adalah kematian dengan cara dilempari batu oleh sesama penduduk desa."));
+        cerpenList.add(new CerpenItem("Harrison Bergeron oleh Kurt Vonnegut", "Kisah ini berlangsung di dunia di mana pemerintah telah mengatur kesetaraan mutlak di antara semua orang. Tokoh utamanya, Harrison Bergeron, memiliki kecerdasan dan kekuatan yang luar biasa, tetapi dikebiri secara fisik dan diberi berat tambahan untuk menjaga agar dia tidak melebihi kemampuan orang lain."));
+        cerpenList.add(new CerpenItem("The Tell-Tale Heart oleh Edgar Allan Poe", "Seorang narator tak bernama membahas pembunuhan yang dilakukannya pada seorang tua yang memiliki mata kecil dan bermata jahat. Meskipun dia percaya bahwa dia telah melakukan pembunuhan dengan cerdas, suara jantung korban yang sudah mati menghantuinya dan membuatnya akhirnya mengakuinya."));
+        cerpenList.add(new CerpenItem("The Gift of the Magi oleh O. Henry", "Della dan Jim adalah pasangan muda yang sangat mencintai satu sama lain, tetapi mereka hidup dalam kemiskinan. Della memotong rambutnya yang panjang dan indah untuk membeli jam tangan emas untuk Jim, sementara Jim menjual jam tangan kesayangannya untuk membeli sepasang sisir yang indah untuk rambut Della. Mereka akhirnya menyadari bahwa cinta mereka lebih berharga dari materi apa pun."));
         adapter.notifyDataSetChanged();
 
         ivBack.setOnClickListener(new View.OnClickListener() {
